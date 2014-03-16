@@ -1,0 +1,13 @@
+<!ENTITY general "一般">
+<!ENTITY applyThisAddOnToFollowingList "このアドオンを以下のリストに適用">
+<!ENTITY writeListInThisFormUserList "ユーザー名/リスト名の形で書いてください">
+<!ENTITY setAllTweetsUntilNowAsAlreadyRead "現在までの全ての発言を既読として設定">
+<!ENTITY disableThisAddonTemporarily "このアドオンを一時的に無効化">
+<!ENTITY advanced "詳細">
+<!--
+<!ENTITY showRepliesToo "返信も表示">
+<!ENTITY notifyDM "DMを通知">
+-->
+<!ENTITY changeColorOfNewTweets "新しい発言の色を変える">
+<!ENTITY developer "開発者">
+

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://readalltweets/skin/readalltweets.css" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://readalltweets/locale/readalltweets.dtd">
+
+<prefwindow id="readalltweets.pref"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" onload="readATOption.Init();">
+    <prefpane id="ratGeneral" label="&general;">
+       <preferences>
+            <preference id="extensions.readalltweets.general.lists" name="extensions.readalltweets.general.lists" type="string"/>
+            <preference id="extensions.readalltweets.general.showOnlyTheMostRecentTweets" name="extensions.readalltweets.general.showOnlyTheMostRecentTweets" type="bool"/>
+            <preference id="extensions.readalltweets.general.maximumNumberOfFetchedTweets" name="extensions.readalltweets.general.maximumNumberOfFetchedTweets" type="int"/>
+            <preference id="extensions.readalltweets.general.disableThisAddonTemporarily" name="extensions.readalltweets.general.disableThisAddonTemporarily" type="bool"/>
+        </preferences>
+        <stringbundleset id="stringbundleset"> 
+            <stringbundle id="readalltweets-bundle" src="chrome://readalltweets/locale/strings.properties" /> 
+        </stringbundleset>
+        <hbox align="center">
+            <checkbox preference="extensions.readalltweets.general.showOnlyTheMostRecentTweets" id="prefs.general.showOnlyTheMostRecentTweets" label="Show only the most recent "/>
+            <textbox preference="extensions.readalltweets.general.maximumNumberOfFetchedTweets" id="prefs.general.maximumNumberOfFetchedTweets" width="60" />
+            <label id="prefs.general.showOnlyTheMostRecentTweets_label" value="tweets" />
+        </hbox>
+        <separator class="thin"/>
+<!--
+        <label value="&applyThisAddOnToFollowingList;"/>
+        <label value="(&writeListInThisFormUserList;)"/>
+        <textbox width="100" preference="extensions.readalltweets.general.lists"/>
+        <separator class="thin"/>
+        <hbox pack="center">
+            <button label="&setAllTweetsUntilNowAsAlreadyRead;" oncommand="readATOption.setAsAlreadyRead()"/>
+        </hbox>
+        <separator class="thin"/>
+-->
+        <checkbox label="&disableThisAddonTemporarily;" preference="extensions.readalltweets.general.disableThisAddonTemporarily" id="prefs.general.disableThisAddonTemporarily"/>
+        <separator class="groove"/>
+        <hbox>
+            <label value="&developer;:"/>
+            <label id="developer" class="text-link" value="@masahal" />
+        </hbox>        
+    </prefpane>
+	<prefpane id="ratAdvanced" label="&advanced;">
+<!--
+		<preferences>
+			<preference id="extensions.readalltweets.general.showRepliesToo" name="extensions.readalltweets.general.showRepliesToo" type="bool"/>
+			<preference id="extensions.readalltweets.general.notifyDM" name="extensions.readalltweets.general.notifyDM" type="bool"/>
+			<preference id="extensions.readalltweets.general.changeColorOfNewTweets" name="extensions.readalltweets.general.changeColorOfNewTweets" type="bool"/>
+		</preferences>
+		<checkbox label="&showRepliesToo;" preference="extensions.readalltweets.general.showRepliesToo" id="prefs.general.showRepliesToo"/>
+		<checkbox label="&notifyDM;" preference="extensions.readalltweets.general.notifyDM" id="prefs.general.notifyDM"/>
+		-->
+		<checkbox label="&changeColorOfNewTweets;" preference="extensions.readalltweets.general.changeColorOfNewTweets" id="prefs.general.changeColorOfNewTweets"/>
+  </prefpane>
+
+	<script type="application/x-javascript" src="readATOption.js"/>
+
+	<stringbundleset id="readalltweets-pref-sbs">
+		<stringbundle id="readalltweets-pref-bundle" src="chrome://readalltweets/locale/strings.properties"/>
+	</stringbundleset>
+
+</prefwindow>

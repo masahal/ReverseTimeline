@@ -1,0 +1,13 @@
+<!ENTITY general "常规">
+<!ENTITY disableThisAddonTemporarily "暂时禁用此扩展">
+<!ENTITY developer "开发者">
+<!ENTITY applyThisAddOnToFollowingList "应用此扩展到跟随(following)列表">
+<!ENTITY writeListInThisFormUserList "跟随(following)列表使用的布局：用户名/列表名">
+<!ENTITY setAllTweetsUntilNowAsAlreadyRead "标记现有的 tweets 为已读">
+<!ENTITY advanced "高级">
+<!ENTITY showRepliesToo "显示t提及(mentions)">
+<!ENTITY notifyDM "私密消息(DM)通知">
+<!ENTITY changeColorOfNewTweets "改变新 tweets 的颜色">
+<!ENTITY numOfTweetsShowingAtOneTime "显示一段时间的 tweets 数目：">
+<!ENTITY checkIntervalOfNewTweets "新 tweets 检查间隔：">
+<!ENTITY minutes "分钟">

@@ -1,0 +1,13 @@
+<!ENTITY general "geral">
+<!ENTITY disableThisAddonTemporarily "Desabilitar temporariamente este complemento">
+<!ENTITY developer "Desenvolvedor">
+<!ENTITY applyThisAddOnToFollowingList "Aplicar este complemento à seguinte lista">
+<!ENTITY writeListInThisFormUserList "Usar o seguinte formato de lista: nomedousuario/nomedalista">
+<!ENTITY setAllTweetsUntilNowAsAlreadyRead "Marcar as mensagens existentes com lidas">
+<!ENTITY advanced "Avançado">
+<!ENTITY showRepliesToo "Mostrar respostas também">
+<!ENTITY notifyDM "Notificar DM">
+<!ENTITY changeColorOfNewTweets "Mudar a cor das novas mensagens">
+<!ENTITY numOfTweetsShowingAtOneTime "Número de mensagens a serem exibidas ao mesmo tempo">
+<!ENTITY checkIntervalOfNewTweets "Intervalo de verificação para novas mensagens">
+<!ENTITY minutes "minutos">

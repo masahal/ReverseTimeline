@@ -1,0 +1,13 @@
+<!ENTITY general "Allmänt">
+<!ENTITY disableThisAddonTemporarily "Inaktivera detta tillägg temporärt">
+<!ENTITY developer "Utvecklare">
+<!ENTITY applyThisAddOnToFollowingList "Tillämpa detta tillägg på följande lista">
+<!ENTITY writeListInThisFormUserList "Använd följande listlayout: användarnamn/listnamn">
+<!ENTITY setAllTweetsUntilNowAsAlreadyRead "Märk befintliga twittringar som lästa">
+<!ENTITY advanced "Avancerat">
+<!ENTITY showRepliesToo "Visa även svar">
+<!ENTITY notifyDM "Meddela vid direktmeddelanden">
+<!ENTITY changeColorOfNewTweets "Ändra färgen på nya twittringar">
+<!ENTITY numOfTweetsShowingAtOneTime "Antal twittringar som visas samtidigt:">
+<!ENTITY checkIntervalOfNewTweets "Intervall för sökning efter nya twittringar:">
+<!ENTITY minutes "minuter">

@@ -1,0 +1,13 @@
+<!ENTITY general "Allgemein">
+<!ENTITY disableThisAddonTemporarily "Add-on temporär deaktivieren">
+<!ENTITY developer "Entwickler">
+<!ENTITY applyThisAddOnToFollowingList "Folgende Liste überwachen:">
+<!ENTITY writeListInThisFormUserList "Liste in dieser Form eintragen: Benutzername/Listenname">
+<!ENTITY setAllTweetsUntilNowAsAlreadyRead "Bestehende Tweets als gelesen markieren">
+<!ENTITY advanced "Erweitert">
+<!ENTITY showRepliesToo "Auch Erwähnungen zeigen">
+<!ENTITY notifyDM "Bei neuen Direktnachrichten benachrichtigen">
+<!ENTITY changeColorOfNewTweets "Farbe von neuen Tweets ändern">
+<!ENTITY numOfTweetsShowingAtOneTime "Anzahl der Tweets die gleichzeitig angezeigt werden:">
+<!ENTITY checkIntervalOfNewTweets "Abfrageintervall:">
+<!ENTITY minutes "Minute(n)">

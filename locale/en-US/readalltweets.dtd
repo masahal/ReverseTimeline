@@ -1,0 +1,10 @@
+<!ENTITY general "General">
+<!ENTITY disableThisAddonTemporarily "Temporarily disable this add-on">
+<!ENTITY developer "Developer">
+<!ENTITY applyThisAddOnToFollowingList "Apply this add-on to the following list">
+<!ENTITY writeListInThisFormUserList "Use the following list layout: username/listname">
+<!ENTITY setAllTweetsUntilNowAsAlreadyRead "Mark existing tweets as read">
+<!ENTITY advanced "Advanced">
+<!ENTITY showRepliesToo "Show mentions, too">
+<!ENTITY notifyDM "Notify Direct Messages">
+<!ENTITY changeColorOfNewTweets "Change color of new tweets">

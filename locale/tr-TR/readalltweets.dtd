@@ -1,0 +1,13 @@
+<!ENTITY general "genel">
+<!ENTITY disableThisAddonTemporarily "Bu add-on'u geçiçi olarak devre dışı bırak">
+<!ENTITY developer "Geliştirici">
+<!ENTITY applyThisAddOnToFollowingList "Bu add-on'u listeye uygula">
+<!ENTITY writeListInThisFormUserList "kullanıcıadı/listeadı formunda bir liste yaz">
+<!ENTITY setAllTweetsUntilNowAsAlreadyRead "Şimdiye kadarki tweetleri okunmuş say">
+<!ENTITY advanced "Gelişmiş">
+<!ENTITY showRepliesToo "Cevapları da göster">
+<!ENTITY notifyDM "Uyarı DMsi">
+<!ENTITY changeColorOfNewTweets "Yeni tweetlerin rengini değiştir">
+<!ENTITY numOfTweetsShowingAtOneTime "Bir seferde gösterilen tweetler:">
+<!ENTITY checkIntervalOfNewTweets "Kontrol aralığı:">
+<!ENTITY minutes "dakika">

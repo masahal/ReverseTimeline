@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://readalltweets/skin/readalltweets.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://readalltweets/locale/readalltweets.dtd">
+
+<overlay id="readalltweets" 
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<stringbundleset id="stringbundleset"> 
+		<stringbundle id="readalltweets-bundle" src="chrome://readalltweets/locale/strings.properties" /> 
+	</stringbundleset>
+	<script type="application/x-javascript" src="chrome://readalltweets/content/readATOverlay.js" />
+<!--	<script type="application/x-javascript" src="chrome://readalltweets/content/readATCommon.js" /> --> 
+</overlay>

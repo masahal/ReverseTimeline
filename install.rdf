@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:version>0.6.13.2</em:version><!-- アドオンのバージョン -->
+		<em:creator>masahal</em:creator>
+		<em:name>Reverse Timeline</em:name>
+		<em:description>Show unread tweets in reverse chronological order. You can apply this add-on only to a specified list.</em:description>
+		<em:homepageURL>http://masahal.web.fc2.com/</em:homepageURL>
+
+		<em:translator>Chris Neuner http://unrealstuff.bplaced.de (de)</em:translator>
+		<em:translator>RigoNet (es-ES)</em:translator>
+		<em:translator>Jojaba - BabelZilla (fr)</em:translator>
+		<em:translator>l0stintranslation - BabelZilla.org (it)</em:translator>
+		<em:translator>markh (nl)</em:translator>
+		<em:translator>Edgard Dias Magalhaes (pt-BR)</em:translator>
+    <em:translator>Mikael Hiort af Ornäs (sv-SE)</em:translator>
+		<em:translator>DepressiveGuN (tr-TR)</em:translator>
+		<em:translator>Nguyễn Hoàng Long at timelinelive.blogspot.com (vi)</em:translator>
+		<em:translator>BruceH (zh-CN)</em:translator>
+		<em:id>readalltweets@masahal.info</em:id><!-- アドオンのid -->
+		<em:type>2</em:type>
+		<em:iconURL>chrome://readalltweets/skin/icon32x32.png</em:iconURL>  
+		<em:optionsURL>chrome://readalltweets/content/readATOption.xul</em:optionsURL>
+		
+		<em:targetApplication>
+			<!-- Firefox -->
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>3.5</em:minVersion><!--対応するFirefoxの最小バージョン-->
+				<em:maxVersion>15.*</em:maxVersion><!--対応するFirefoxの最大バージョン-->
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>

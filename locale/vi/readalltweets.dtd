@@ -1,0 +1,13 @@
+<!ENTITY general "tổng quan">
+<!ENTITY disableThisAddonTemporarily "Tạm thời tắt add-on này">
+<!ENTITY developer "Nhà phát triển">
+<!ENTITY applyThisAddOnToFollowingList "Áp dụng add-on này cho danh sách sau">
+<!ENTITY writeListInThisFormUserList "Sử dụng lớp danh sách sau: tên sử dụng/danh sách tên">
+<!ENTITY setAllTweetsUntilNowAsAlreadyRead "Đánh dấu các tweet đang tồn tại thành trạng thái &quot;Đã đọc&quot;">
+<!ENTITY advanced "Nâng cao">
+<!ENTITY showRepliesToo "Hiển thị các câu trả lời">
+<!ENTITY notifyDM "Thông báo DM">
+<!ENTITY changeColorOfNewTweets "Đổi màu của các tweet mới">
+<!ENTITY numOfTweetsShowingAtOneTime "Số lượng tweet hiển thị trong một lần:">
+<!ENTITY checkIntervalOfNewTweets "Kiểm tra khoảng thời gian của các tweet mới">
+<!ENTITY minutes "phút">

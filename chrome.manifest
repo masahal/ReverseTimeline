@@ -1,0 +1,17 @@
+overlay chrome://browser/content/browser.xul chrome://readalltweets/content/readATOverlay.xul
+resource readalltweets	modules/
+
+content readalltweets	content/
+locale	readalltweets	de			locale/de/
+locale	readalltweets	en-US		locale/en-US/
+locale	readalltweets	es-ES		locale/es-ES/
+locale	readalltweets	fr			locale/fr/
+locale	readalltweets	it			locale/it/
+locale	readalltweets	ja-JP		locale/ja-JP/
+locale	readalltweets	nl			locale/nl/
+locale	readalltweets	pt-BR		locale/pt-BR/
+locale	readalltweets	sv-SE		locale/sv-SE/
+locale	readalltweets	tr-TR		locale/tr-TR/
+locale	readalltweets	vi			locale/vi/
+locale	readalltweets	zh-CN		locale/zh-CN/
+skin	readalltweets	classic/1.0	skin/ 
